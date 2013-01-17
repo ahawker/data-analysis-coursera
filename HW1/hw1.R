@@ -1,4 +1,7 @@
-#Programming Assignment 1
+#Andrew Hawker
+#Computing for Data Analysis (Winter 2013)
+#Assignment #1
+#https://class.coursera.org/compdata-002/assignment/view?assignment_id=14
 
 #Read in the dataset
 data <- read.csv("hw1_data.csv")
@@ -33,6 +36,3 @@ class(data[,5])
 
 #What is the mean of Temp when Month is 6?
 mean(subset(data, data[,5]==6)[,4])
-
-
-
