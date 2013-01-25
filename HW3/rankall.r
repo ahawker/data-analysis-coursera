@@ -33,7 +33,6 @@ rankall <- function(outcome, num="best") {
         slice <- slice[num, c(2,7,index)]
         slice$State <- state
         return (slice)
-        #return (slice[num,c(2,7)])
     }
     state_data <- lapply(states, state_hospital_data)
     dframe <- as.data.frame(do.call(rbind, lapply(states, state_hospital_data)), row.names=states)
