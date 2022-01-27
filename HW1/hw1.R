@@ -3,8 +3,9 @@
 #Assignment #1
 #https://class.coursera.org/compdata-002/assignment/view?assignment_id=14
 
+
 #Read in the dataset
-data <- read.csv("hw1_data.csv")
+data <- read.csv("HW1/hw1_data.csv")
 
 #What are the dataset column names?
 colnames(data)
